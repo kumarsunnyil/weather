@@ -1,0 +1,40 @@
+.city-name{
+    font-size: 50px;
+    color:#fff;
+}
+.display-city-temperature{
+    font-size: 20px;
+}
+
+.temp-display{
+    position: relative;
+    /* height: 13em;
+    padding:2em; */
+    text-align:center;
+    clear: both;
+    border-top: 3px solid #424242;
+    border-top: 3px solid rgba(66, 66, 66, 0.8);
+  }
+  .current-temp{
+    margin-top:0;
+    font-size:2em;
+    font-weight:bold;
+  }
+  .current-temp:after{
+    content:"°";
+  }
+  .forecast{
+    font-size: 25px;
+    padding-bottom: 15px;
+    text-transform: capitalize; 
+    color: #fff;
+  }
+
+  .min-max-temp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+

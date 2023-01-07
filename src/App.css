@@ -1,3 +1,10 @@
+* body{
+  /* background-color: rgb(194, 197, 18); */
+  font-weight: bold;
+  font-weight: 14px;
+  background: lightblue url("https://media.istockphoto.com/id/513373486/photo/beautiful-sky-with-white-cloud-background.jpg?s=612x612&w=0&k=20&c=7JK8qjakS-HsXRBeDKRbVljgD4X9isCUecf5dwIuxhA=") no-repeat center; 
+  background-size: cover;
+}
 .App {
   text-align: center;
 }
@@ -28,11 +35,10 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  height: 20px;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  
 }
